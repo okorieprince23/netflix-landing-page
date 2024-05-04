@@ -1,0 +1,30 @@
+@import 'config';
+.home{
+color: $primary-color;
+height:100vh;
+padding-top: 59vh;
+padding-left: 100px;
+overflow: hidden;
+justify-content: center;
+align-items: center;
+text-align:start;
+text-wrap: nowrap;
+background: url(./img/blog_x_.png);
+background-size: cover;
+}
+
+.social-icons{
+    display: flex;
+    padding-left: 350px;
+   
+    a{
+        color: $primary-color;
+    }
+
+    :hover{
+        color: $secondary-color;
+    }
+}
+
+
+
